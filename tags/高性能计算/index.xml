@@ -1,0 +1,8 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>高性能计算 - 标签 - 思绪成林</title><link>https://blog.bynshard.top/tags/%E9%AB%98%E6%80%A7%E8%83%BD%E8%AE%A1%E7%AE%97/</link><description>高性能计算 - 标签 - 思绪成林</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zhangbingshuai.cn@gmail.com (bynshard)</managingEditor><webMaster>zhangbingshuai.cn@gmail.com (bynshard)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 12 Apr 2026 17:37:24 +0800</lastBuildDate><atom:link href="https://blog.bynshard.top/tags/%E9%AB%98%E6%80%A7%E8%83%BD%E8%AE%A1%E7%AE%97/" rel="self" type="application/rss+xml"/><item><title>IEEE 754 浮点数标准（以 FP32 为例）</title><link>https://blog.bynshard.top/2026/04/float-standard-z1dtnxb/</link><pubDate>Sun, 12 Apr 2026 17:37:24 +0800</pubDate><author>zhangbingshuai.cn@gmail.com (bynshard)</author><guid>https://blog.bynshard.top/2026/04/float-standard-z1dtnxb/</guid><description><![CDATA[<p>这篇文章主要记录一下 <strong>IEEE 754 的 float 标准</strong>，以最常见的 <strong>FP32（single precision）</strong>  为例。</p>
+<p>FP32 一共由 <strong>32 位</strong>组成：</p>
+<ul>
+<li><strong>1 位符号位（sign）</strong></li>
+<li><strong>8 位指数位（exponent）</strong></li>
+<li><strong>23 位尾数位（fraction）</strong></li>
+</ul>
+<p>可以表示为：</p>]]></description></item></channel></rss>

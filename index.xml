@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>思绪成林</title><link>https://blog.bynshard.top/</link><description>思绪成林，记录零散知识如何慢慢长成体系</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zhangbingshuai.cn@gmail.com (bynshard)</managingEditor><webMaster>zhangbingshuai.cn@gmail.com (bynshard)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 05 Oct 2026 21:13:41 +0800</lastBuildDate><atom:link href="https://blog.bynshard.top/index.xml" rel="self" type="application/rss+xml"/><item><title>ds 沙箱</title><link>https://blog.bynshard.top/2026/10/ds-sandbox-zaowtp/</link><pubDate>Mon, 05 Oct 2026 21:13:41 +0800</pubDate><author>zhangbingshuai.cn@gmail.com (bynshard)</author><guid>https://blog.bynshard.top/2026/10/ds-sandbox-zaowtp/</guid><description><![CDATA[<p>简单讲述一下这篇论文理解，</p>
+<p>先简答讲述一下对强化学习的理解</p>
+<p>我们在 sft 中，是人工做的语料，高质量语料， 主要是用来做 能力对齐，安全对齐，但是人力毕竟有限，所以 rl 这种无监督学习 被用来训练llm，并且在实践中发现，llm 还可以通过自己的探索，提升llm 的性能。</p>]]></description></item><item><title>C2C 硬件</title><link>https://blog.bynshard.top/2026/10/c2c-hardware-2ahai/</link><pubDate>Mon, 05 Oct 2026 16:37:17 +0800</pubDate><author>zhangbingshuai.cn@gmail.com (bynshard)</author><guid>https://blog.bynshard.top/2026/10/c2c-hardware-2ahai/</guid><description><![CDATA[<p>hopper 中有了 c2c ，cpu 和 gpu 有了内存一致性的内存通路，可以做很多事情，</p>
+<p><a href="https://www.usenix.org/conference/osdi26/presentation/luo" target="_blank" rel="noopener noreffer ">No Buffer, No Bottleneck: Efficient Zero-Copy KV Cache Offloading for Long-Context LLMs | USENIX</a></p>
+<p>这篇论文就是讲kv cache 放到的 host 侧内存上，调整 fa 的遍历顺序，得到一个不错的效果。</p>]]></description></item><item><title>IEEE 754 浮点数标准（以 FP32 为例）</title><link>https://blog.bynshard.top/2026/04/float-standard-z1dtnxb/</link><pubDate>Sun, 12 Apr 2026 17:37:24 +0800</pubDate><author>zhangbingshuai.cn@gmail.com (bynshard)</author><guid>https://blog.bynshard.top/2026/04/float-standard-z1dtnxb/</guid><description><![CDATA[<p>这篇文章主要记录一下 <strong>IEEE 754 的 float 标准</strong>，以最常见的 <strong>FP32（single precision）</strong>  为例。</p>
+<p>FP32 一共由 <strong>32 位</strong>组成：</p>
+<ul>
+<li><strong>1 位符号位（sign）</strong></li>
+<li><strong>8 位指数位（exponent）</strong></li>
+<li><strong>23 位尾数位（fraction）</strong></li>
+</ul>
+<p>可以表示为：</p>]]></description></item><item><title>ORCA论文阅读</title><link>https://blog.bynshard.top/2025/05/orca-paper-reading-zlf9q9/</link><pubDate>Fri, 09 May 2025 15:41:01 +0800</pubDate><author>zhangbingshuai.cn@gmail.com (bynshard)</author><guid>https://blog.bynshard.top/2025/05/orca-paper-reading-zlf9q9/</guid><description><![CDATA[<p>现阶段有什么问题：</p>
+<p>之前的推理引擎在处理基于transform模型decode的时候存在局限</p>
+<ol>
+<li>
+<p>由于语言模型的自回归特性，每次模型的输出作为模型的输入再次执行模型，导致输出多少个token，就需要运行多少次模型，并且这个运行多少次模型是不确定的</p>]]></description></item></channel></rss>
